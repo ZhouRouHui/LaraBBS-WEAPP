@@ -148,7 +148,7 @@
     methods = {
       async updateAvatar () {
         // 选择头像图片
-        let image = await wepy.chooseImage({count: 1})
+        let image = await wepy.chooseImage({count: 1}) // count: 1,只能上传一张图片
 
         try {
           // 获取选择的图片
